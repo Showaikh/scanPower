@@ -7,7 +7,7 @@ generate_random_ip() {
 
 # Check if both arguments are provided
 if [ $# -ne 2 ]; then
-    echo "Usage: ./scan.sh <website> <nmap_severity>"
+    echo "Usage: ./scanpower.sh <website> <nmap_severity>"
     exit 1
 fi
 
